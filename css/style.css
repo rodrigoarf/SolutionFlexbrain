@@ -680,6 +680,110 @@ nav#footer p {
     color: #00D96D !important;
 }
 
+#tf-tools {
+    overflow: hidden;
+    padding: 5em 0em 0em 0em;
+    background-color: #FFBF00 !important;
+}
+
+.tool-describe {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+    color:#fff;
+}
+
+#bar-wrapper
+{
+	background: #3D3D3D;
+    overflow: hidden;
+    padding: 2em 0em 1.4em 0em;
+}   
+
+.phrase {
+    font-size: 22px;
+    color:#fff;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height:30px;
+}
+
+.hexagon {
+    margin: 0 auto 2em auto;
+    width: 120px;
+    height: 80px;
+    line-height: 70px;
+    background: #FFC000;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+    margin:150px auto 150px auto;
+}
+
+.hexagon:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30px solid #FFC000;
+}
+
+.hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 30px solid #FFC000;
+}
+
+	.title
+{
+	margin-bottom: 3em;
+}
+
+.title h2
+{
+	font-weight: 400;
+	font-size: 2.8em;
+	color: #323232;
+}
+
+.title .byline
+{
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+#triangle-up {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30px solid #3D3D3D;
+}
+#triangle-up {
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 30px solid #3D3D3D;
+}
+
 @media screen and (max-width: 480px) {
     #tf-home .content {
         padding-top: 250px;
@@ -705,6 +809,8 @@ nav#footer p {
     }
 
 }
+
+
 
 
 
